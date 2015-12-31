@@ -1,8 +1,4 @@
-require(msm) # i found this package on-line
-## it implements random variate generation from a truncated normal.
-## Alternatively just write your own function
 
-dir <- "C:/Users/Jason/My Documents/R/MCMC/MID2/"
 ## read in data
 
 dtafile=as.matrix(read.table("cepheid.dta",header=T))
